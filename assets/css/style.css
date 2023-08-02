@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: rgb(13,17,23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.display{
+    font-size: 2em;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.calculadora{
+    margin-top: 5px;
+    width: 400px;
+    text-align: right;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(232, 232, 232);
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(197, 197, 197); 
+}
+
+.btn-eq{
+    background-color: rgb(49, 49, 193);
+}
+
+.btn-eq:hover{
+    background-color: rgb(49, 49, 193);
+}
